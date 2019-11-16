@@ -178,4 +178,6 @@ public class Settings extends SettingsActivity {
     public static class AccountDashboardActivity extends SettingsActivity {}
     public static class SystemDashboardActivity extends SettingsActivity {}
 
+    // Gaming mode
+    public static class GamingModeActivity extends SettingsActivity {}
 }

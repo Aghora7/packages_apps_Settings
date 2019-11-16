@@ -3289,6 +3289,32 @@
                 android:value="com.android.settings.gestures.GlobalActionsPanelSettings" />
         </activity>
 
+        <!-- LESSAOSP Settings -->
+        <activity android:name=".Settings$LESSAOSPSettingsActivity"
+            android:label="@string/lessaosp_settings_title"
+            android:icon="@drawable/ic_homepage_lessaosp"
+            android:parentActivityName="com.android.settings">
+            <intent-filter android:priority="69">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.lessaosp.settings.LESSAOSPSettings" />
+        </activity>
+
+        <!-- Gaming mode -->
+        <activity android:name=".Settings$GamingModeActivity"
+            android:label="@string/gaming_mode_title"
+            android:taskAffinity="com.android.settings"
+            android:parentActivityName="Settings">
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.GAMING_MODE_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.lessaosp.settings.fragments.GamingMode" />
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
