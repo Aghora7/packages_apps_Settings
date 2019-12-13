@@ -14,7 +14,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
     <!-- ROM version -->
     <string name="rom_version">LESSAOSP version</string>
     <string name="rom_version_default">Unknown</string>
@@ -37,7 +36,7 @@
 
     <!-- LESSAOSP Settings -->
     <string name="lessaosp_settings_title">LESSAOSP settings</string>
-    <string name="lessaosp_settings_summary">Time to evolve your device</string>
+    <string name="lessaosp_settings_summary">LESS IS MORE</string>
 
     <!-- Charging vibration -->
     <string name="charging_vibro_title">Charging vibration</string>
