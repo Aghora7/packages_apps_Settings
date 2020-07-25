@@ -36,7 +36,7 @@ import com.android.settingslib.core.lifecycle.Lifecycle;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.evolution.settings.preference.CustomSeekBarPreference;
+import com.lessaosp.settings.preference.CustomSeekBarPreference;
 
 /**
  * Settings screen for Smart charging

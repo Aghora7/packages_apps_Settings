@@ -47,13 +47,13 @@
             android:title="@string/owner_info_settings_title"
             android:summary="@string/owner_info_settings_summary" />
 
-        <com.evolution.settings.preference.SystemSettingSwitchPreference
+        <com.lessaosp.settings.preference.SystemSettingSwitchPreference
             android:key="powermenu_lockdown"
             android:title="@string/lockdown_settings_title"
             android:summary="@string/lockdown_settings_summary"
             android:defaultValue="false" />
 
-        <com.evolution.settings.preference.SystemSettingSwitchPreference 
+        <com.lessaosp.settings.preference.SystemSettingSwitchPreference 
             android:key="ambient_battery_percent" 
             android:title="@string/ambient_battery_percent_title" 
             android:summary="@string/ambient_battery_percent_summary" 
@@ -73,7 +73,7 @@
             settings:controller="com.android.settings.display.AmbientDisplayAlwaysOnPreferenceController"
             settings:userRestriction="no_ambient_display" />
 
-        <com.evolution.settings.preference.SystemSettingSwitchPreference
+        <com.lessaosp.settings.preference.SystemSettingSwitchPreference
             android:key="doze_on_charge"
             android:defaultValue="false"
             android:title="@string/doze_on_charge_title"
